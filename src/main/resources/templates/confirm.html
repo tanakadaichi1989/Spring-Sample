@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Confirm by Spring Boot</title>
+	</head>
+	<body>
+		<h1>Confirm.html</h1>
+		<p>This is comfirm page by Spring Boot.</p>
+		<br>
+		<form>
+			Your name: <input type="text", name="name" disabled="true" size="10" th:value="${sb.name}"/><br>
+			Your age: <input type="text", name="age" disabled="true" siize="3" th:value="${sb.age}">
+		</form>
+		<a href="/register">Return</a>
+	</body>
+</html>
